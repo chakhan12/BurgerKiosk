@@ -47,6 +47,7 @@
             groupBox3 = new GroupBox();
             button1 = new Button();
             button2 = new Button();
+            lblMessage = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -75,7 +76,6 @@
             HB.Name = "HB";
             HB.Size = new Size(104, 35);
             HB.TabIndex = 1;
-            HB.TabStop = true;
             HB.Text = "햄버거";
             HB.UseVisualStyleBackColor = true;
             HB.CheckedChanged += HB_CheckedChanged;
@@ -89,7 +89,6 @@
             BHB.Name = "BHB";
             BHB.Size = new Size(158, 35);
             BHB.TabIndex = 2;
-            BHB.TabStop = true;
             BHB.Text = "불고기 버거";
             BHB.UseVisualStyleBackColor = true;
             // 
@@ -102,7 +101,6 @@
             CHB.Name = "CHB";
             CHB.Size = new Size(127, 35);
             CHB.TabIndex = 3;
-            CHB.TabStop = true;
             CHB.Text = "치킨버거";
             CHB.UseVisualStyleBackColor = true;
             // 
@@ -218,6 +216,7 @@
             // 
             // listBox1
             // 
+            listBox1.ForeColor = Color.Blue;
             listBox1.FormattingEnabled = true;
             listBox1.Location = new Point(8, 39);
             listBox1.Name = "listBox1";
@@ -230,7 +229,7 @@
             money.AutoSize = true;
             money.Font = new Font("맑은 고딕", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 129);
             money.ForeColor = Color.Blue;
-            money.Location = new Point(8, 210);
+            money.Location = new Point(6, 210);
             money.Name = "money";
             money.Size = new Size(148, 31);
             money.TabIndex = 14;
@@ -274,11 +273,22 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // lblMessage
+            // 
+            lblMessage.AutoSize = true;
+            lblMessage.Font = new Font("맑은 고딕", 12F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            lblMessage.ForeColor = Color.Red;
+            lblMessage.Location = new Point(399, 446);
+            lblMessage.Name = "lblMessage";
+            lblMessage.Size = new Size(0, 28);
+            lblMessage.TabIndex = 18;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(831, 539);
+            ClientSize = new Size(977, 539);
+            Controls.Add(lblMessage);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(groupBox3);
@@ -321,5 +331,6 @@
         private GroupBox groupBox3;
         private Button button1;
         private Button button2;
+        private Label lblMessage;
     }
 }
