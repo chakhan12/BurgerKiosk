@@ -11,10 +11,12 @@
 
 ## 실행 화면
 - 1단계 코드의 실행 스크린샷
-(여기에 이미지 삽입)
+<img width="952" height="560" alt="1스크린" src="https://github.com/user-attachments/assets/33604c7c-e559-46d8-8908-2ad500d866bf" />
 
 - 2단계 코드의 실행 스크너샷
-(여기에 이미지 삽입)
+<img width="970" height="565" alt="2스크린 1" src="https://github.com/user-attachments/assets/b1a91ccb-7798-4cf0-a0ab-a7f5baf530b7" />
+
+<img width="967" height="566" alt="2스크린 2" src="https://github.com/user-attachments/assets/fdbacd8e-12c7-407c-89b2-71ec866181f2" />
 
 
 ## 배운 내용
@@ -34,8 +36,12 @@
     - 데이터 포맷팅: 화폐 단위 표시를 위한 천 단위 구분 기호 적용
     - 초기화 로직: 모든 선택 사항과 UI 상태를 초기값으로 되돌리는 기능 구현
 
-## 실행 화면- 코드의 실행 스크린샷과 구현 내용 설명
-![실행화면]
+## 실행전 디자인화면 
+<img width="986" height="568" alt="그냥화면" src="https://github.com/user-attachments/assets/7960c47a-63f8-46e1-907e-7b13d3e2de31" />
+
+## 실행 화면
+<img width="952" height="560" alt="1스크린" src="https://github.com/user-attachments/assets/b93e69f5-a25b-4690-9278-2ecd35541577" />
+
 - 구현한 내용
 1. UI 구성
 ▶ RadioButton과 CheckBox 등을 적절히 배치합니다.
@@ -45,8 +51,10 @@
 ▶ 다시 주문할 수 있도록 초기화 합니다.
 
 ## 실행 화면
-코드의 실행 스크린샷과 구현 내용 설명
-![실행화면]
+<img width="970" height="565" alt="2스크린 1" src="https://github.com/user-attachments/assets/c6af6d91-9ee6-41c0-a1bb-0e37c098e86c" />
+
+<img width="967" height="566" alt="2스크린 2" src="https://github.com/user-attachments/assets/43dc5617-be77-4e30-b15d-93465c7290fd" />
+
 - 구현한 내용
 ▶실행창에 들어가면 아무것도 선택 안되게 하기
 ▶아무것도 선택하지 않고 주문하기 버튼을 누르면 에러 메시지 표시
