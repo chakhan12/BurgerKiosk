@@ -37,7 +37,8 @@
     - 초기화 로직: 모든 선택 사항과 UI 상태를 초기값으로 되돌리는 기능 구현
 
 ## 실행전 디자인화면 
-(img/screenshot-3.1.png)
+<img width="986" height="568" alt="그냥화면" src="https://github.com/user-attachments/assets/fd026ee4-00cb-4eac-8924-0c8f63e8184b" />
+
 
 ## 실행 화면
 <img width="952" height="560" alt="1스크린" src="https://github.com/user-attachments/assets/b93e69f5-a25b-4690-9278-2ecd35541577" />
